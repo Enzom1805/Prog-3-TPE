@@ -23,4 +23,5 @@ public class Camion {
     public void setPatente(String patente) {this.patente = patente;}
     public void setCapacidad_kg(int capacidad_kg) {this.capacidad_kg = capacidad_kg;}
     public void setEsta_refrigerado(boolean esta_refrigerado){this.esta_refrigerado = esta_refrigerado;}
+    //josias
 }
