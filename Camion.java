@@ -5,11 +5,12 @@ public class Camion {
     private boolean esta_refrigerado;
     private int capacidad_kg;
     
-    public Camion(String id_camion,String patente, int capacidad_kg){
+    public Camion(String id_camion,String patente, int capacidad_kg, boolean esta_refrigerado){
         this.id_camion = id_camion;
         this.patente = patente;
         this.capacidad_kg = capacidad_kg;
-        this.esta_refrigerado = false;
+        this.esta_refrigerado = esta_refrigerado;
+        
     }
 
     //getters
@@ -23,6 +24,5 @@ public class Camion {
     public void setPatente(String patente) {this.patente = patente;}
     public void setCapacidad_kg(int capacidad_kg) {this.capacidad_kg = capacidad_kg;}
     public void setEsta_refrigerado(boolean esta_refrigerado){this.esta_refrigerado = esta_refrigerado;}
-    //aaaaaaaaaaaa
-    //anna
+   
 }

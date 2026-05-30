@@ -6,12 +6,13 @@ public class Paquete {
     private boolean contiene_alimentos;
     private int nivel_urgencia;
     
-    public Paquete(String id_paquete, String codigo_paquete, double peso_kg, int nivel_urgencia){
+    public Paquete(String id_paquete, String codigo_paquete, double peso_kg, boolean contiene_alimentos, int nivel_urgencia){
         this.id_paquete = id_paquete;
         this.codigo_paquete = codigo_paquete;
         this.peso_kg = peso_kg;
-        this.nivel_urgencia = nivel_urgencia;
         this.contiene_alimentos = false;
+        this.nivel_urgencia = nivel_urgencia;
+        
     }
 
     //getters
